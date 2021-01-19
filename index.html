@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>WikiWeb Visualization</title>
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://d3js.org/d3-dispatch.v2.min.js"></script>
+  <script src="https://d3js.org/d3-selection.v2.min.js"></script>
+  <script src="https://d3js.org/d3-drag.v2.min.js"></script>
+  <style>
+    .links line {
+      stroke: #999;
+      stroke-opacity: 0.6;
+    }
+
+    .nodes circle {
+      stroke: #fff;
+      stroke-width: 1.5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>WikiWeb: Fields of Mathematics (One Level)</h1>
+  <!--<div id='canvas'></div>-->
+  <svg width="960" height="600">
+  </svg>
+  <script src="scripts/main.js"></script>
+</body>
